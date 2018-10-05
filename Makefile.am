@@ -109,6 +109,7 @@ cpuminer_SOURCES = \
   algo/xevan.c \
   algo/yescrypt.c \
   algo/zr5.c \
+  sha256-sse/sha256-ref.c \
   balloon/balloon-cuda.o balloon/balloon-cuda-dlink.o
 
 balloon/balloon-cuda.o: balloon/balloon-cuda.cu
